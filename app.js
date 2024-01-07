@@ -8,7 +8,7 @@ require('./db/conn');
 const router=require('./Routes/Router');
 
 
-const port=8001
+const port=process.env.PORT || 8001
 
 // app.get('/',(req,res)=>
 // {
